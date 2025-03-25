@@ -32,7 +32,7 @@
 
 // WCDB may fail to compile since there are few frameworks that define `offset` as a macro.
 #ifdef offset
-#error Symbol `offset` should not be defined as a macro since it's a common used word.
+#error Symbol `offset` should not be defined as a macro since it is a common used word.
 #endif
 
 #include "Builtin.h"
